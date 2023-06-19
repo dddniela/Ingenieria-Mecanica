@@ -43,7 +43,7 @@ class Administrativo
         INNER JOIN tbl_carrera AS tbl_carrera 
         ON tbl_administrativo_carrera.carreraId = tbl_carrera.carreraId 
         AND tbl_administrativo_carrera.status = 1 
-        AND tbl_administrativo_carrera.carreraId = " . $GLOBALS['carreraID'] ."
+        AND tbl_administrativo_carrera.carreraId = " . $GLOBALS['carreraID'] . "
         AND tbl_administrativo.puestoId = 1;";
         $jefeDep = mysqli_query($this->connection, $sql);
         $jefeDep = $jefeDep->fetch_object();
@@ -62,7 +62,7 @@ class Administrativo
         INNER JOIN tbl_carrera AS tbl_carrera 
         ON tbl_administrativo_carrera.carreraId = tbl_carrera.carreraId 
         AND tbl_administrativo_carrera.status = 1 
-        AND tbl_administrativo_carrera.carreraId = " . $GLOBALS['carreraID'] ."
+        AND tbl_administrativo_carrera.carreraId = " . $GLOBALS['carreraID'] . "
         AND tbl_administrativo.puestoId = 4;";
         $coordinador = mysqli_query($this->connection, $sql);
         $coordinador = $coordinador->fetch_object();
