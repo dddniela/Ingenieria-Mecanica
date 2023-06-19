@@ -5,7 +5,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Comunidades Estudiantiles</h1>
                 <h1 class="fw-bold text-light d-md-flex d-none">
-                    Ingeniería Mecatrónica
+                    Ingeniería Mecánica
                 </h1>
             </div>
         </div>

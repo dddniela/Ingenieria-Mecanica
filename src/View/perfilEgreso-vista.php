@@ -5,7 +5,7 @@
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Mecatrónica</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Mecánica</h1>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;">
-                            Formar profesionistas en la Ingeniería Mecatrónica con capacidad analítica, crítica e innovadora que le
+                            Formar profesionistas en la Ingeniería Mecánica con capacidad analítica, crítica e innovadora que le
                             permita diseñar, proyectar, construir y administrar equipos y sistemas mecatrónicos en el sector social,
                             productivo y de servicios; así como integrar, operar y mantenerlos, con un compromiso ético y de
                             calidad en un marco de desarrollo sustentable.
@@ -142,7 +142,7 @@
                         <div class="area shadow-sm p-4">
                             <img class="imagenArea items-center" src="img/iconos/blockchain.PNG" alt="">
                             <p class="textoArea">Interpreta información técnica de las áreas que componen
-                                la Ingeniería Mecatrónica para la transferencia, adaptación, asimilación e innovación
+                                la Ingeniería Mecánica para la transferencia, adaptación, asimilación e innovación
                                 de tecnologías de vanguardia. </p>
                         </div>
                     </div>

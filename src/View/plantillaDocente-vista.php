@@ -7,7 +7,7 @@
       >
         <h1 class="fw-bold text-warning">Plantilla Docente</h1>
         <h1 class="fw-bold text-light d-md-flex d-none">
-          Ingeniería Mecatrónica
+          Ingeniería Mecánica
         </h1>
       </div>
     </div>
