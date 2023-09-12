@@ -11,7 +11,7 @@ $urlControl = array(
 $_SERVER['SERVER_NAME']."/Ingenieria-Mecanica/",
 $_SERVER['SERVER_NAME']."/Ingenieria-Mecanica/?option=0");
 
-$carreraID = 5;
+$programaId = 5;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
@@ -31,8 +31,7 @@ $comunidad->setConnection($conn->getDB());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ingeniería Mecánica">
-    <meta name="author" content="Daniela Castro Rodriguez, Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez,
-    Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez, Ángel Manuel Sandria Pérez">
+    <meta name="author" content="Tecnológico Nacional de México Veracruz">
     <link rel="icon" href="img/itver-logo.PNG"/>
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
