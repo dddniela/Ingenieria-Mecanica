@@ -220,6 +220,12 @@ class Docente
         $limInferior = 1;
         $limSuperior = 12;
         $paginacion = '';
+
+        if($numRows <= 12){
+            return $paginacion;
+        }
+
+
         $paginacion .= '<nav aria-label="Page navigation example">';
         $paginacion .= '<ul class="pagination justify-content-center">';
         if (isset($_GET['inferior'])) {

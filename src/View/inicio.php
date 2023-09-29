@@ -72,9 +72,17 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en Mecánica permite al estudiante la oportunidad de
-              afrontar el mundo actual y obtener los conocimientos necesarios para forjar el futuro, a través del desarrollo y la creación de nuevas aplicaciones o sistemas que puedan ser de ayuda
-              para una empresa y la sociedad en general.
+            <p style="text-align: justify;"> El estudiante de Ingeniería Mecánica se formará en función de las tecnologías
+              convencionales y de última generación, así como de los sistemas productivos.
+              Su objetivo será crear, diseñar, operar y proteger equipos en un ambiente de estructuras funcionales que le permita
+              adquirir competencias ingenieriles en empresas de clase mundial. Esto se logrará mediante un pensamiento crítico y el análisis de resultados,
+              utilizando métodos, técnicas y procedimientos en conformidad con las normas vigentes. Esto se aplicará para llevar a cabo la medición y
+              control operacional, así como una gestión eficiente de los recursos.
+              <br>
+              <br>
+              Este enfoque le permitirá desarrollar proyectos, elaborar planes y programas de mantenimiento de equipos,
+              coordinar su ejecución y mejorar las actividades de índole industrial. Esto, a su vez, contribuirá a elevar la calidad de la
+              producción de bienes y servicios que la sociedad demanda.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -86,9 +94,20 @@
 <!--Fin Razones para estudiar la carrera -->
 
 <!-- Areas de aprendizaje -->
-<section class="lightSection bg-light p-2">
+<section class="lightSection bg-light p-5">
   <h2 class="sectionTitle text-center font-bold m-3">Áreas de aprendizaje</h2>
   <div class="sectionSeparator"></div>
+
+  <p class="areaText">
+    La formación del ingeniero mecánico incluye un soporte matemático importante y el conocimiento de materiales, cinemática de mecanismos,
+    diseño estático y dinámico de sistemas y de máquinas, sistemas térmicos y de aire acondicionado, sistemas hidráulicos,
+    instrumentación de control de procesos y máquinas.
+    La educación en escuelas de Ingeniería y el desarrollo profesional en el campo de trabajo terminan de formar al ingeniero,
+    el cual se especializa en algunas de las áreas de la ingeniería mecánica arriba mencionadas
+    <br>
+    <br>
+    El ingeniero mecánico encuentra su campo de acción en las siguientes áreas:
+  </p>
 
   <div class="row g-0">
 
@@ -97,8 +116,7 @@
         <a href="?option=3.php">
           <img class="areaImage items-center" src="img/topicos/programacion-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Desarrollo de Software</h3>
-        <p class="areaText">Desarrolla programas a través de diferentes lenguajes de programación.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Mantenimiento de equipos mecánicos</h3>
       </div>
     </div>
 
@@ -107,8 +125,7 @@
         <a href="?option=3">
           <img class="areaImage items-center" src="img/topicos/ing-software-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Ingeniería de Software</h3>
-        <p class="areaText">Aplica metodologías ágiles para el desarrollo eficiente de proyectos de software.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Instrumentación y control de equipos y sistemas mecánicos</h3>
       </div>
     </div>
 
@@ -117,8 +134,7 @@
         <a href="?option=3.php">
           <img class="areaImage items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Bases de Datos</h3>
-        <p class="areaText">Gestiona y almacena el flujo de datos de información de un sistema informático.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Diseño de equipos y sistemas mecánicos, térmicos, hidráulicos, neumáticos</h3>
       </div>
     </div>
 
@@ -127,8 +143,7 @@
         <a href="?option=3">
           <img class="areaImage items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Programación web</h3>
-        <p class="areaText">Crea y desarrolla aplicaciones y sitios web para brindar soluciones a las empresas.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Operación de sistemas de producción</h3>
       </div>
     </div>
 
@@ -137,8 +152,7 @@
         <a href="?option=3">
           <img class="areaImage items-center" src="img/topicos/admon-red-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Redes y Telecomunicaciones</h3>
-        <p class="areaText">Permite la interconexión entre distintos equipos de cómputo de forma física o virtual.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Instalación y puesta en marcha de sistemas de producción</h3>
       </div>
     </div>
 
@@ -147,8 +161,7 @@
         <a href="?option=3">
           <img class="areaImage items-center" src="img/topicos/inteligencia-artificial-icono.PNG" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Inteligencia Artificial</h3>
-        <p class="areaText">Aprende los fundamentos sobre sistemas informáticos de última generación.</p>
+        <h3 class="areaTitle text-center font-bold text-xl">Asesoría y ventas de equipos mecánicos, térmicos, hidráulicos, neumáticos</h3>
       </div>
     </div>
 
@@ -170,12 +183,11 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-              El departamento de sistemas y computación cuenta con diversos laboratorios de equipo de cómputo en dónde los
-              estudiantes podrán desempañarse en desarrollar diversos programas, aplicaciones y proyectos a lo largo de sus
-              clases prácticas en la carrera de ingeniería en sistemas computacionales. <br /><br />
+              El departamento de metal - mecánica cuenta con diversos laboratorios dónde los
+              estudiantes podrán desempañarse en desarrollar diversas aplicaciones y proyectos a lo largo de sus
+              clases prácticas en la carrera de Ingeniería Mecanica. <br /><br />
 
-              Los laboratorios de cómputo están orientados a servir como herramientas de aprendizaje y apoyo didáctico tanto
-              para los docentes como los alumnos.
+              En cada laboratorio se encuentra personal de apoyo al maestro en turno para la supervisión y vigilancia en la realización de las practicas, así como para estar pendiente de que los alumnos acaten las normas y reglamentos del laboratorio.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -185,7 +197,7 @@
 
     <div class="col-lg-6 col-12 p-4 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_2102.webp" alt="">
+        <img class="img-fluid rounded" src="img/EdificioX.webp" alt="">
       </div>
     </div>
 
@@ -247,40 +259,38 @@
   <h2 class="sectionTitle text-center font-bold m-3">Enlaces</h2>
   <div class="sectionSeparator"></div>
 
-  <div class="row g-0 justify-content-center">
+  <div class="row g-0">
 
-    <div class="col-5 text-center p-5">
+    <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_1223.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_14.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
       </div>
     </div>
 
-    <div class="col-5 text-center p-5">
+    <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://www.veracruz.tecnm.mx/" target="_blank">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/ITVER-9.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/IMG_4446.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">TECNM Veracruz</h3>
       </div>
     </div>
 
-    <!-- <div class="col-lg-4 col-sm-6 text-center p-3">
+    <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_1245.webp" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/IMG_80.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
-    </div> -->
-
-
+    </div>
 
   </div>
 </section>
-<!-- Fin Enlaces ->
+<!-- Fin Enlaces -->
 
 <!-- Área de redes sociales -->
 <section class="lightSection p-2 g-0">
@@ -346,24 +356,5 @@
       </div>
     </div>
   </div>
-  <!-- <div class="row g-0">
-    <h4 class="sectionTitle  text-center font-bold">Departamento de Sistemas Computacionales</h4>
-    <div class="d-flex flex-row justify-content-center">
-      <a class="mx-2" href="https://www.facebook.com/profile.php?id=100065327956621" target="_blank"
-        style="text-decoration: none;">
-        <div class="d-flex flex-row justify-content-center">
-          <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="width: 40px" src="img/iconos/facebook.PNG"
-            alt="">
-        </div>
-      </a>
-      <a class="mx-2" href="https://www.youtube.com/channel/UCYSUOZ6V9YRGviVvwaXOcjw" target="_blank"
-          style="text-decoration: none;">
-          <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
-          </div>
-        </a>
-    </div>
-  </div> -->
 </section>
 <!-- Fin Área de redes sociales -->

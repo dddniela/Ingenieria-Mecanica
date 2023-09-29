@@ -9,7 +9,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/ITVER-6.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning shadow-text">Conócenos</h1>
@@ -29,7 +29,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_0474.JPG" alt="">
+        <img class="img-fluid rounded" src="img/EdificioX.webp" alt="">
       </div>
     </div>
 
@@ -41,7 +41,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de Ingeniería Mecanica pertenece al
+            <p style="text-align: justify;"> La carrera de Ingeniería Mecánica pertenece al
               departamento de Metal - Mecánica, el objetivo principal del
               departamento es poner al alcance de los estudiantes diferentes
               laboratorios de cómputo para el desarrollo de sus materias
@@ -156,216 +156,527 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
 <!-- Instalaciones -->
 <div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark p-3">
-  <div class="row p-4 g-0">
-    <h2 class="tituloSeccionOscura text-center font-bold m-3">
-      Instalaciones
-    </h2>
-    <div class="separadorSeccionOscura"></div>
-    <h4 class="text-center text-light fw-bold fs-3">
-      Laboratorios de mecánica
-    </h4>
-  </div>
+<section class="darkSection bg-dark p-2 px-4 col g-0">
+  <h2 class="titleDarkSection text-center font-bold m-3">Instalaciones</h2>
+  <div class="darkSectionSeparator"></div>
   <div class="col-12">
     <h6 class="text-center text-warning fw-bold fs-6">
       “El verdadero progreso es el que pone la tecnología al alcance de
-      todos.”<br />
+      todos.”<br>
     </h6>
 
     <p class="text-light" style="text-align: justify">
-      El departamento de sistemas y computación cuenta con diversos
-      laboratorios de equipo de cómputo en dónde los estudiantes podrán
-      desempañarse en desarrollar diversos programas, aplicaciones y
-      proyectos a lo largo de sus clases prácticas en la carrera de
-      ingeniería en sistemas computacionales. <br /><br />
-      Los laboratorios de cómputo están orientados a servir como
-      herramientas de aprendizaje y apoyo didáctico tanto para los
-      docentes como los alumnos.
+      El departamento de Metal-Mecánica cuenta con diversos laboratorios donde los
+      estudiantes pueden desarrollar diversos proyectos a lo largo de su trayecto
+      estudiantil.
+      <br><br>
+      Estos laboratorios están diseñados para servir como herramientas de aprendizaje
+      y apoyo didáctico tanto para los docentes como para los alumnos. En cada
+      laboratorio, hay personal de apoyo y un maestro en turno encargado de
+      supervisar y vigilar la realización de las prácticas. También se encargan
+      de garantizar que los alumnos cumplan con las normas y reglamentos del
+      laboratorio, teniendo la autoridad para reportar cualquier conducta anómala o
+      contraria a estas normas al jefe del departamento correspondiente. En caso
+      necesario, pueden llevar el asunto al comité académico, que determinará una
+      sanción para el alumno, la cual deberá cumplir.
+      <br><br>
+      Los reglamentos de cada laboratorio son específicos a la naturaleza de ese
+      laboratorio en particular. Sin embargo, en términos generales, se enfocan
+      en mantener el orden y la limpieza de los equipos, así como en regular la
+      conducta de los alumnos en estas instalaciones. En cada laboratorio, los
+      jefes y auxiliares son responsables de hacer cumplir estas disposiciones
+      para el uso adecuado de las salas del laboratorio y los talleres.
     </p>
-    <div class="justify-content-center text-center">
-      <p><a class="btn-warning btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
-          Reglamento de Laboratorio</a></p>
-    </div>
 
-    <!-- Galeria de imagenes -->
-    <div class="row mb-4 px-2 g-0">
-      <div class="col-12">
-        <div class="galleryContainer bg-dark">
-          <div class="row g-0">
-            <!-- <div class="col-md-4 px-2">
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-1.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-2.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-3.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-4.jpg" alt="">
-              </a>
+    <!-- Galería de imágenes -->
+    <div class="row mb-4 px-2 g-0 text-center justify-content-center">
+
+      <div class="col-12 col-sm-6">
+        <h2 class="titleDarkSection font-bold m-3">
+          Laboratorio UDIM
+        </h2>
+        <div class="darkSectionSeparator"></div>
+        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalUDIM">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/UDIM.webp" alt="">
+        </a>
+
+        <div tabindex="-1" aria-labelledby="modalUDIM" aria-hidden="true" class="modal fade" id="modalUDIM">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/UDIM.webp" alt="">
             </div>
+          </div>
+        </div>
 
-            <div class="col-md-4 px-2">
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-5.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-6.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-7.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-8.jpg" alt="">
-              </a>
+        <br>
+        <a class="btn btn-warning font-bold" href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamentoUDIM">Ver reglamento UDIM</a>
+
+        <div tabindex="-1" aria-labelledby="modalReglamentoUDIM" aria-hidden="true" class="modal fade" id="modalReglamentoUDIM">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/Reglamentos/reglamento-UDIM.webp" alt="">
             </div>
+          </div>
+        </div>
 
-            <div class="col-md-4 px-2">
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-9.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-10.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-11.jpg" alt="">
-              </a>
-              <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage12">
-                <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Galeria/img-12.jpg" alt="">
-              </a>
-            </div> -->
+        <br><br><br>
+      </div>
 
+      <h4 class="text-center text-light fw-bold fs-4">
+        Laboratorio de Ciencia e Ingeniería de Materiales (LACIMA)
+      </h4>
+
+      <h4 class="text-center text-light fw-bold fs-5">
+        Laboratorio de Mecánica Experimental
+      </h4>
+      <div class="row gx-3">
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLME">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LME.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLME" aria-hidden="true" class="modal fade" id="modalLME">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LME.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLME-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LME-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLME-1" aria-hidden="true" class="modal fade" id="modalLME-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LME-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLME-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LME-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLME-2" aria-hidden="true" class="modal fade" id="modalLME-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LME-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <h4 class="text-center text-light fw-bold fs-5">
+        Laboratorio de Metalurgia y Corrosión
+      </h4>
+
+      <div class="row gx-3">
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLMC">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LMC.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLMC" aria-hidden="true" class="modal fade" id="modalLMC">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LMC.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLMC-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LMC-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLMC-1" aria-hidden="true" class="modal fade" id="modalLMC-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LMC-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLMC-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LMC-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLMC-2" aria-hidden="true" class="modal fade" id="modalLMC-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LMC-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="text-light fw-bold fs-4">
+        Laboratorio de Vibraciones
+      </h4>
+      <div class="row gx-3">
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLVM-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LVM-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLVM-1" aria-hidden="true" class="modal fade" id="modalLVM-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LVM-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLVM-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/UDIM/LVM-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLVM-2" aria-hidden="true" class="modal fade" id="modalLVM-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/UDIM/LVM-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <h2 class="titleDarkSection font-bold m-3">
+          Laboratorio de Fundición
+        </h2>
+        <div class="darkSectionSeparator"></div>
+
+        <!-- <a class="btn btn-warning font-bold" href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamentoAulasLIM">Ver reglamento Aulas LIM</a> -->
+
+        <!-- <div tabindex="-1" aria-labelledby="modalReglamentoAulasLIM" aria-hidden="true" class="modal fade" id="modalReglamentoAulasLIM">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/Reglamentos/reglamento-AulaLIM.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <br><br><br> -->
+      </div>
+
+      <div class="row gx-3">
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLF-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Fundicion/LF-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLF-1" aria-hidden="true" class="modal fade" id="modalLF-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Fundicion/LF-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLF-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Fundicion/LF-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLF-2" aria-hidden="true" class="modal fade" id="modalLF-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Fundicion/LF-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLF-3">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Fundicion/LF-3.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLF-3" aria-hidden="true" class="modal fade" id="modalLF-3">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Fundicion/LF-3.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLF-4">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Fundicion/LF-4.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLF-4" aria-hidden="true" class="modal fade" id="modalLF-4">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Fundicion/LF-4.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="titleDarkSection font-bold m-3">
+          Laboratorios del Edificio X
+        </h2>
+        <div class="darkSectionSeparator"></div>
+
+        <a class="btn btn-warning font-bold" href="#!" data-bs-toggle="modal" data-bs-target="#modalReglamentoAulasLIM">Ver reglamento Aulas LIM</a>
+
+        <div tabindex="-1" aria-labelledby="modalReglamentoAulasLIM" aria-hidden="true" class="modal fade" id="modalReglamentoAulasLIM">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/Reglamentos/reglamento-AulaLIM.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <br><br><br>
+      </div>
+
+      <h4 class="text-center text-light fw-bold fs-4">
+        Laboratorio Institucional de Física
+      </h4>
+
+      <div class="row gx-3">
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLIF-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Institucional-Fisica/LIF-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLIF-1" aria-hidden="true" class="modal fade" id="modalLIF-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Institucional-Fisica/LIF-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLIF-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Institucional-Fisica/LIF-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLIF-2" aria-hidden="true" class="modal fade" id="modalLIF-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Institucional-Fisica/LIF-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLIF-3">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Institucional-Fisica/LIF-3.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLIF-3" aria-hidden="true" class="modal fade" id="modalLIF-3">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Institucional-Fisica/LIF-3.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLIF-4">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Institucional-Fisica/LIF-4.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLIF-4" aria-hidden="true" class="modal fade" id="modalLIF-4">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Institucional-Fisica/LIF-4.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="text-center text-light fw-bold fs-4">
+        Laboratorio MPS
+      </h4>
+
+      <div class="row gx-3">
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalMPS-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/MPS/MPS-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalMPS-1" aria-hidden="true" class="modal fade" id="modalMPS-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/MPS/MPS-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalMPS-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/MPS/MPS-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalMPS-2" aria-hidden="true" class="modal fade" id="modalMPS-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/MPS/MPS-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalMPS-3">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/MPS/MPS-3.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalMPS-3" aria-hidden="true" class="modal fade" id="modalMPS-3">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/MPS/MPS-3.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <h4 class="text-center text-light fw-bold fs-4">
+        Laboratorio de Robótica
+      </h4>
+
+      <div class="row gx-3">
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-1">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-1.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-1" aria-hidden="true" class="modal fade" id="modalLR-1">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-1.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-2">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-2.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-2" aria-hidden="true" class="modal fade" id="modalLR-2">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-2.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-3">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-3.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-3" aria-hidden="true" class="modal fade" id="modalLR-3">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-3.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-4">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-4.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-4" aria-hidden="true" class="modal fade" id="modalLR-4">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-4.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-5">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-5.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-5" aria-hidden="true" class="modal fade" id="modalLR-5">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-5.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-6">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-6.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-6" aria-hidden="true" class="modal fade" id="modalLR-6">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-6.webp" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#!" data-bs-toggle="modal" data-bs-target="#modalLR-7">
+            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/laboratorios/Robotica/LR-7.webp" alt="">
+          </a>
+        </div>
+
+        <div tabindex="-1" aria-labelledby="modalLR-7" aria-hidden="true" class="modal fade" id="modalLR-7">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content bg-transparent text-white text-center">
+              <img src="img/laboratorios/Robotica/LR-7.webp" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
 </section>
-<!-- Fin Galeria de imagenes -->
+<!-- Fin Instalaciones -->
 
-
-<!-- Modals de la galería-->
-<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-1.jpg" alt="">
-      <!-- <p>Logo del Instituto Tecnológico de México Veracruz</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-2.jpg" alt="">
-      <!-- <p>Estatua Venus</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-3.jpg" alt="">
-      <!-- <p>Letras del Instituto Tecnológico de México Veracruz</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-4.jpg" alt="">
-      <!-- <p>Áreas recreativas</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-5.jpg" alt="">
-      <!-- <p>Áreas recreativas</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-6.jpg" alt="">
-      <!-- <p>Edificio E</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-7.jpg" alt="">
-      <!-- <p>Clúster del Laboratorio de Cómputo Intensivo</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-8.jpg" alt="">
-      <!-- <p>Laboratorio de Cómputo Intensivo</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-9.jpg" alt="">
-      <!-- <p>Laboratorio de cómputo</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-10.jpg" alt="">
-      <!-- <p>Edificio U: Sistemas</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-11.jpg" alt="">
-      <!-- <p>Laboratorio de cómputo</p> -->
-    </div>
-  </div>
-</div>
-
-<div tabindex="-1" aria-labelledby="modalImage12" aria-hidden="true" class="modal fade" id="modalImage12">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/Galeria/img-12.jpg" alt="">
-      <!-- <p>Laboratorio de cómputo</p> -->
-    </div>
-  </div>
-</div>
-</section>
-<!-- Fin Modals de la galería-->
-
-<div class="bg-primary pt-5"></div>
+<!-- <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
   <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
   <p>Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez, Marco Gabriel Cortés Toledo,
-    Yelitza Magali Rosas Jiménez, Eric Manuel Montalvo Cruz y Gabriel Escobar Medina</p>
+    Yelitza Magali Rosas Jiménez y Gabriel Escobar Medina</p>
 </div>
 
 <div class="p-1 text-center">
   <p class="font-semibold">Agradecimientos</p>
-  <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan Agame Malpica </p>
-</div>
-<!-- Fin Laboratorio de cómputo intensivo -->
+  <p>Fernando Martinez, Eric Manuel Montalvo Cruz e Ivan de Jesús Agame Malpica </p>
+</div> -->

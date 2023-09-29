@@ -1,6 +1,6 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_7338.jpg" alt="">
+        <img class="w-100 img-fluid" src="img/pe.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
@@ -215,8 +215,7 @@
                                 profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
                                 México.
                             </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
-                                existido:</h5>
+                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades vigentes:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
                                     <?php
@@ -231,7 +230,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/ITVER-3.jpg" alt="">
+                    <img class="img-fluid rounded" src="img/ITVER-3.webp" alt="">
                 </div>
             </div>
 
@@ -285,11 +284,9 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en mecánica ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
-                                desenvolver en diferentes áreas
-                                de la tecnología, ofreciendo soluciones óptimas e innovadoras.
+                                desenvolver en diferentes áreas, ofreciendo soluciones óptimas e innovadoras.
                             </p>
                             <h5 class="font-bold" style="text-align: justify">Trayectoria del alumno:</h5>
                             <div class="bg-light">
@@ -401,7 +398,7 @@
 
     <!-- Residencias profesionales -->
     <div class="bg-primary pt-5">
-        <img src="img/IMG_0337.webp" class="w-full" alt="">
+        <img src="img/IMG_7395.webp" class="w-full" alt="">
         <section class="darkSection bg-dark">
             <div class="row px-2 g-0">
                 <div class="col-lg-12 col-12 py-4">
@@ -517,7 +514,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IMG_1404.webp" alt="">
                 </div>
             </div>
 
@@ -580,7 +577,7 @@
 
                 <div class="col-lg-6 col-12 p-2 shadow-sm">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                        <img class="img-fluid rounded" src="img/IMG_20.webp" alt="">
                     </div>
                 </div>
 
@@ -651,6 +648,7 @@
             </div>
         </section>
 
+
         <section class="lightSection bg-light">
             <div class="row px-2 g-0">
 
@@ -662,18 +660,11 @@
 
                 <div class="col-lg-6 col-12 p-4">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <div class="row g-0">
-                            <div class="col-12">
-                                <h2 class="sectionTitle text-center font-bold m-3">Requisitos para tramitar la titulación:
-                                </h2>
-                                <div class="sectionSeparator"></div>
-                            </div>
+                        <div class="row g-0 col-12">
+                            <h2 class="sectionTitle text-center font-bold m-3">Requisitos para tramitar la titulación:</h2>
+                            <div class="sectionSeparator"></div>
                             <div class="col-12" style="text-align: center;">
-                                <p class="text-dark" style="text-align: justify;">
-                                    El egresado debe cumplir con:
-                                </p>
-                            </div>
-                            <div class="bg-light">
+                                <p style="text-align: justify;">El egresado debe cumplir con:</p>
                                 <ul class="my-3 font-bold" style="text-align: justify">
                                     <li>La acreditación del 100% de los créditos de su plan de estudios.</li>
                                     <li>La acreditación de un programa de lengua extranjera presentando un certificado o
@@ -689,111 +680,115 @@
                                     <li>Presentar acto protocolario del proyecto de titulación integral.</li>
                                 </ul>
                             </div>
-                            <p class="text-dark" style="text-align: justify;">
-                                *Puede variar según el plan de estudios.
+                            <p class="text-dark text-break" style="text-align: left;">
+                                *Puede variar según el plan de estudios.<br><br>
+                                Solicita información en:<br>
+                                coor_titulacion@veracruz.tecnm.mx<br>
+                                titulacion_mecanica@veracruz.tecnm.mx.
                             </p>
-                            <p class="text-dark" style="text-align: left;">
-                                Solicita información en: coor_titulacion@veracruz.tecnm.mx/titulacion_mecanica@veracruz.tecnm.mx.
-                            </p>
+
                             <div class="justify-content-center text-center">
-                                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                                <p><a class="btn-warning w-auto btn font-bold" target="_blank"
+                                        href="https://bit.ly/3t9gVaK">Formas de titulación</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </section>
+
     </div>
-    <!-- Fin Titulación -->
-
-    <!-- Liberación de segunda lengua -->
-    <div class="bg-primary pt-5"></div>
-    <section class="lightSection bg-light">
-        <div class="row px-2 g-0">
-
-            <div class="col-lg-6 col-12 py-4">
-                <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <div class="row g-0">
-                        <div class="col-12">
-                            <h2 class="sectionTitle text-center font-bold m-3">Liberación de segunda lengua</h2>
-                            <div class="sectionSeparator"></div>
-                        </div>
-                        <div class="col-12 px-4" style="text-align: center;">
-                            <p class="text-dark" style="text-align: justify;">
-                                Para poder hacer la liberación de segunda lengua, debes de cumplir con una certificación
-                                externa que se encuentre avalada por la certificación
-                                nacional de nivel de idioma (CENNI) que evalúe 4 habilidades y se obtenga un nivel mínimo B1
-                                o cursar los cinco niveles de inglés o algún otro idioma en el Centro de Idiomas en el
-                                ITVER.
-                                <br><br>
-                            </p>
-                            <h5 class="font-bold" style="text-align: justify">Medios de contacto:</h5>
-                            <p class="text-dark" style="text-align: justify;">
-                                Correo electrónico: coo_cle@vercaruz.tecnm.mx <br>
-                                FB: <a class="text-decoration-none" href="https://www.facebook.com/LenguaExtranjeraItver" target="_blank"> Centro de Idiomas ITVERr</a><br>
-                            </p>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-12 p-2 shadow-sm">
-                <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/centroIdiomas.webp" alt="">
-                </div>
-            </div>
-
-        </div>
     </section>
-    <!--Fin Liberación de idiomas-->
+
+</div>
+<!-- Fin Titulación -->
+
+<!-- Liberación de segunda lengua -->
+<div class="bg-primary pt-5"></div>
+<section class="lightSection bg-light">
+    <div class="row px-2 g-0">
+
+        <div class="col-lg-6 col-12 py-4">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <h2 class="sectionTitle text-center font-bold m-3">Liberación de segunda lengua</h2>
+                        <div class="sectionSeparator"></div>
+                    </div>
+                    <div class="col-12 px-4" style="text-align: center;">
+                        <p class="text-dark" style="text-align: justify;">
+                            Para poder hacer la liberación de segunda lengua, debes de cumplir con una certificación
+                            externa que se encuentre avalada por la certificación
+                            nacional de nivel de idioma (CENNI) que evalúe 4 habilidades y se obtenga un nivel mínimo B1
+                            o cursar los cinco niveles de inglés o algún otro idioma en el Centro de Idiomas en el
+                            ITVER.
+                            <br><br>
+                        </p>
+                        <h5 class="font-bold" style="text-align: justify">Medios de contacto:</h5>
+                        <p class="text-dark" style="text-align: justify;">
+                            Correo electrónico: coo_cle@vercaruz.tecnm.mx <br>
+                            FB: <a class="text-decoration-none" href="https://www.facebook.com/LenguaExtranjeraItver" target="_blank"> Centro de Idiomas ITVERr</a><br>
+                        </p>
+                    </div>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>
-        const modalReticula = document.getElementById('modalReticula');
-        modalReticula.addEventListener('show.bs.modal',
-            event => {
-                // Button that triggered the modal
-                const button = event.relatedTarget;
+                </div>
+            </div>
+        </div>
 
-                // se obtienen los atributos que se encuentran en el botón de 'Ver más'
-                const id = button.getAttribute('data-id');
-                const materia = button.getAttribute('data-materia');
-                const videoReticula = button.getAttribute('data-videoMateria');
-                const descripcion = button.getAttribute('data-descMateria');
-                const url = button.getAttribute('data-urlMateria');
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <img class="img-fluid rounded" src="img/centroIdiomas.webp" alt="">
+            </div>
+        </div>
 
-                // se obtienen los elementos por su ID y se cambian los valores.
-                document.getElementById("modalTitulo").innerHTML = `${materia}`;
-                document.getElementById("descReticula").innerHTML = `${descripcion}`;
+    </div>
+</section>
+<!--Fin Liberación de idiomas-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+    const modalReticula = document.getElementById('modalReticula');
+    modalReticula.addEventListener('show.bs.modal',
+        event => {
+            // Button that triggered the modal
+            const button = event.relatedTarget;
+
+            // se obtienen los atributos que se encuentran en el botón de 'Ver más'
+            const id = button.getAttribute('data-id');
+            const materia = button.getAttribute('data-materia');
+            const videoReticula = button.getAttribute('data-videoMateria');
+            const descripcion = button.getAttribute('data-descMateria');
+            const url = button.getAttribute('data-urlMateria');
+
+            // se obtienen los elementos por su ID y se cambian los valores.
+            document.getElementById("modalTitulo").innerHTML = `${materia}`;
+            document.getElementById("descReticula").innerHTML = `${descripcion}`;
+            $("#videoReticula iframe").attr('src', videoReticula);
+            $("#urlReticula").attr('href', url);
+            document.getElementById("videoReticula").removeAttribute("hidden");
+
+            if (url && videoReticula) {
                 $("#videoReticula iframe").attr('src', videoReticula);
                 $("#urlReticula").attr('href', url);
-                document.getElementById("videoReticula").removeAttribute("hidden");
-
-                if (url && videoReticula) {
-                    $("#videoReticula iframe").attr('src', videoReticula);
-                    $("#urlReticula").attr('href', url);
-                } else {
-                    document.getElementById("videoReticula").setAttribute("hidden", true);
-                }
-            });
-
-        $("#modalReticula").on('hidden.bs.modal', function(e) {
-            $("#modalReticula iframe").attr("src", '');
+            } else {
+                document.getElementById("videoReticula").setAttribute("hidden", true);
+            }
         });
 
-        function youtubePlay(btn) {
-            var id = $(btn).data("id");
-            var videoReticula = $(btn).data("videomateria");
-            var theModal = $(btn).data("bs-target"),
-                videoSRCauto = videoReticula + "?autoplay=1";
+    $("#modalReticula").on('hidden.bs.modal', function(e) {
+        $("#modalReticula iframe").attr("src", '');
+    });
 
-            $(theModal + ' iframe').attr('src', videoSRCauto);
-            $(theModal + ' button.btn-close').click(function() {
-                $(theModal + ' iframe').attr('src', videoReticula);
-            });
-        }
-    </script>
+    function youtubePlay(btn) {
+        var id = $(btn).data("id");
+        var videoReticula = $(btn).data("videomateria");
+        var theModal = $(btn).data("bs-target"),
+            videoSRCauto = videoReticula + "?autoplay=1";
+
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.btn-close').click(function() {
+            $(theModal + ' iframe').attr('src', videoReticula);
+        });
+    }
+</script>

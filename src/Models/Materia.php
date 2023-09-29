@@ -71,7 +71,7 @@ class Materia
                 $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
