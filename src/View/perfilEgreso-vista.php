@@ -8,7 +8,7 @@ $objetivo = $seccion->getObjetivo();
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/ITVER-2.JPG" alt="">
+        <img class="w-100 img-fluid" src="img/banner-rover.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning shadow-text">Perfil de Egreso</h1>
@@ -22,30 +22,24 @@ $objetivo = $seccion->getObjetivo();
 <!-- Objetivo general -->
 <section class="p-2">
     <div class="row px-2 g-0">
-        <!-- <div class="col-lg-6 col-sm-12">
-           <div class="galleryContainer bg-light">
+        <div class="col-lg-6 col-sm-12">
+            <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-3.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-4.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-2.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-5.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Sesion/mecatronico-6.webp" alt="">
                     </div>
-
                 </div>
-            </div> 
-        </div>-->
-        <div class="col-lg-6 col-12 p-2 shadow-sm">
-            <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
             </div>
         </div>
         <div class="lightSection col-lg-6 col-12 p-4">

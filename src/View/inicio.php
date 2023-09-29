@@ -9,11 +9,11 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/ITVER-1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/banner-impresora.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecánica</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Desarrolla nuevos horizontes</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Donde la teoría se encuentra con la aplicación práctica.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -21,22 +21,22 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_3929.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/banner-clase.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecánica</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Aprende nuevas tecnologías</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Convierte tus ideas en máquinas que transforman el mundo</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
 
       <div class="carousel-item">
-        <img src="img/IMG_1891.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/ITVER-4.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecánica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Colabora con la comunidad</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Cada pieza que diseñes será un paso hacia un futuro más eficiente y sostenible.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
@@ -58,11 +58,11 @@
 <!-- Razones para estudiar la carrera -->
 <section class="p-2">
   <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 p-2 shadow-sm">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/ITVER-9.webp" alt="">
-      </div>
-    </div>
+  <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
+      <iframe class='aspect-video video-reticula' src="https://www.youtube.com/embed/h_6cz4TmE98" title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; 
+       clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>
+      </iframe>
+    </div> 
 
     <div class="lightSection col-lg-6 col-12 p-4">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
@@ -264,7 +264,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_14.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/IMG_10.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
       </div>
