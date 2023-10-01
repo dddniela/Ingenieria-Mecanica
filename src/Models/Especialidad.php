@@ -28,8 +28,35 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
+            case 'Deformacion':
+                $ruta_img = 'deformacion.PNG';
+                break;
+            case 'Manufactura':
+                $ruta_img = 'manufactura.PNG';
+                break;
+            case 'Materiales metalicos':
+                $ruta_img = 'materialesMetalicos.PNG';
+                break;
+            case 'Microestructural':
+                $ruta_img = 'microestructural.PNG';
+                break;
+            case 'Soldadura':
+                $ruta_img = 'soldadura.PNG';
+                break;
+            case 'Analisis y aplicacion':
+                $ruta_img = 'analisisAplicacion.PNG';
+                break;
+            case 'Gestion y mantenimiento':
+                $ruta_img = 'gestionMantenimiento.PNG';
+                break;
+            case 'Administracion estrategica':
+                $ruta_img = 'administracionEstrategica.PNG';
+                break;
+            case 'Modelado':
+                $ruta_img = 'modelado.PNG';
+                break;
             default:
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
@@ -137,7 +164,7 @@ class Especialidad
                 $nombre = $row['nombre'];
                 $competencia = $row['competencia'];
                 $area = $row['area'];
-                $ruta_img = $this->icono($area);
+                $ruta_img = 'img/iconos/' . $this->icono($area);
                 $urlVideo = $row['urlVideo'];
                 $urlPrograma = $row['urlPrograma'];
 

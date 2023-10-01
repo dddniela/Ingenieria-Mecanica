@@ -26,52 +26,106 @@ class Materia
         $ruta_img = "";
         switch ($Area) {
             case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+                $ruta_img = 'programacion.PNG';
+                break;
+            case 'Dibujo Mecanico':
+                $ruta_img = 'dibujoMecanico.PNG';
+                break;
+            case 'Metrologia':
+                $ruta_img = 'metrologia.PNG';
+                break;
+            case 'Materiales metalicos':
+                $ruta_img = 'materialesMetalicos.PNG';
+                break;
+            case 'Materiales no metalicos':
+                $ruta_img = 'materialesNoMetalicos.PNG';
+                break;
+            case 'Calidad':
+                $ruta_img = 'calidad.PNG';
+                break;
+            case 'Estatica':
+                $ruta_img = 'estatica.PNG';
+                break;
+            case 'Electromagnetismo':
+                $ruta_img = 'electromagnetismo.PNG';
+                break;
+            case 'Manufactura':
+                $ruta_img = 'manufactura.PNG';
+                break;
+            case 'Dinamica':
+                $ruta_img = 'dinamica.PNG';
+                break;
+            case 'Termodinamica':
+                $ruta_img = 'termodinamica.PNG';
+                break;
+            case 'Mecanica Materiales':
+                $ruta_img = 'mecanicaMateriales.PNG';
+                break;
+            case 'Mecanismos':
+                $ruta_img = 'mecanismos.PNG';
+                break;
+            case 'Mecanica fluidos':
+                $ruta_img = 'mecanicaFluidos.PNG';
+                break;
+            case 'Transferencia de Calor':
+                $ruta_img = 'transferenciaCalor.PNG';
+                break;
+            case 'Instalaciones Hidraulicas':
+                $ruta_img = 'instalacionesHidraulicas.PNG';
+                break;
+            case 'Instrumentacion':
+                $ruta_img = 'instrumentacion.PNG';
+                break;
+            case 'Vibraciones':
+                $ruta_img = 'vibraciones.PNG';
+                break;
+            case 'Seguridad industrial':
+                $ruta_img = 'seguridadIndustrial.PNG';
+                break;
+            case 'Fluidos compresibles':
+                $ruta_img = 'compresibles.PNG';
+                break;
+            case 'Fluidos incompresibles':
+                $ruta_img = 'incompresibles.PNG';
+                break;
+            case 'Automatizacion industrial':
+                $ruta_img = 'automatizacionIndustrial.PNG';
+                break;
+            case 'Mantenimiento':
+                $ruta_img = 'mantenimiento.PNG';
+                break;
+            case 'Energia':
+                $ruta_img = 'energia.PNG';
+                break;
+            case 'Refrigeracion':
+                $ruta_img = 'refrigeracion.PNG';
                 break;
             case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
-                break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
-                break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
+                $ruta_img = 'asignaturas-comunes.PNG';
                 break;
             case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
+                $ruta_img = 'electronica.PNG';
                 break;
             case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
-                break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
+                $ruta_img = 'ingenieria.PNG';
                 break;
             case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+                $ruta_img = 'calculo.PNG';
                 break;
             case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
-                break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
+                $ruta_img = 'estadistica.PNG';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+                $ruta_img = 'investigacion.PNG';
                 break;
             case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
-                break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
+                $ruta_img = 'algebra.PNG';
                 break;
             case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
-                break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+                $ruta_img = 'administracion.PNG';
                 break;
             default:
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+                $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
@@ -95,7 +149,7 @@ class Materia
                 $area = $row['area'];
                 $urlVideo = $row['urlVideo'];
                 $urlPrograma = $row['urlPrograma'];
-                $ruta_img = $this->icono($area);
+                $ruta_img = 'img/iconos/' . $this->icono($area);
 
                 // Cuadro de materia
                 $tabla .= "<div class='col-lg-4 col-md-6 col-sm-9 col-9 p-4 h-100 justify-content-center rounded-3'>
@@ -185,5 +239,4 @@ class Materia
     {
         return $this->imprimir(9);
     }
-
 }
