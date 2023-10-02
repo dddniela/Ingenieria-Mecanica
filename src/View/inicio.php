@@ -114,7 +114,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/programacion-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/mantenimiento.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Mantenimiento de equipos mecánicos</h3>
       </div>
@@ -123,7 +123,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/ing-software-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/analisisAplicacion.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Instrumentación y control de equipos y sistemas mecánicos</h3>
       </div>
@@ -132,7 +132,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/admon-bd-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/ingenieria.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Diseño de equipos y sistemas mecánicos, térmicos, hidráulicos, neumáticos</h3>
       </div>
@@ -141,7 +141,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/programacion-web-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/OBJ9.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Operación de sistemas de producción</h3>
       </div>
@@ -150,7 +150,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/admon-red-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/gestionMantenimiento.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Instalación y puesta en marcha de sistemas de producción</h3>
       </div>
@@ -159,7 +159,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/inteligencia-artificial-icono.PNG" alt="">
+          <img class="areaImage items-center" src="img/iconos/OBJ4.PNG" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Asesoría y ventas de equipos mecánicos, térmicos, hidráulicos, neumáticos</h3>
       </div>

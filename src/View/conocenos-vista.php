@@ -42,16 +42,13 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h2 class="sectionTitle text-center font-bold m-3">Departamento de Metal - Mecánica</h2>
             <div class="sectionSeparator"></div>
           </div>
-          <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de Ingeniería Mecánica pertenece al
-              departamento de Metal - Mecánica, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
-              profesionales.
-            </p>
+          <div class="col-12" style="text-align: justify;">
+            <p style="text-align: justify;"> La Ingeniería Mecánica es una disciplina fundamentada en las leyes de la física y las matemáticas,
+              que brinda el conocimiento de la ciencia e ingeniería de los materiales, cinemática de máquinas,
+              diseño estático y dinámico de sistemas y de máquinas, sistemas térmicos y de aire acondicionado,
+              sistemas hidráulicos, vibraciones mecánicas, instrumentación y procesos de manufactura,
+              permitiendo al egresado integrarse en la industria nacional así como en el desarrollo de ciencia y
+              tecnología.</p>
           </div>
         </div>
       </div>
