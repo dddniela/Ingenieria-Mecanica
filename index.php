@@ -14,6 +14,8 @@ $_SERVER['SERVER_NAME']."/Ingenieria-Mecanica/?option=0");
 $programaId = 5;
 $api = 'http://localhost:3010';
 $PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Mecanica/docentes/';
+$PATH_COMUNIDAD =  $GLOBALS['api'] . '/imagenes/Ing-Mecanica/comunidades/';
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
