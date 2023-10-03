@@ -77,7 +77,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento['nombrePuesto'] . " de Sistemas Computacionales";
+                echo $jefeDepartamento['nombrePuesto'] . " de Metal - Mecánica";
               }
               ?>
             </h4>
@@ -131,7 +131,7 @@ $imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
+                echo $coordinador['nombrePuesto'] . " de Ingeniería Mecánica";
               }
               ?>
             </h4>
