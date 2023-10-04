@@ -297,7 +297,7 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
-          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="servicioSocial.webp" alt="">
+          <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/servicioSocial.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
       </div>
