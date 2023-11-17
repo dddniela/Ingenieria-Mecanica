@@ -65,11 +65,11 @@ $docenteImagen6 = 'data:image/' . $type . ';base64,' . base64_encode($docenteIma
       </div>
 
       <div class="carousel-item">
-        <img src="img/ITVER-4.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/rover.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Mecánica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Cada pieza que diseñes será un paso hacia un futuro más eficiente y sostenible.</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Cada pieza que diseñes será un paso hacia un futuro más eficiente y sostenible.</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
         </div>
