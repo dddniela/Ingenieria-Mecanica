@@ -128,7 +128,11 @@ class Materia
                 $ruta_img = 'circuloDeLectura.PNG';
                 break;
         }
-        return $ruta_img;
+        
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
     public function getMateriasBySemestre($semestre)
@@ -179,7 +183,7 @@ class Materia
                 <div class='row bg-light overflow-hidden d-none d-sm-flex' style='height: 110px;'>
                     <div class='col-md-3 col-12 justify-content-center align-items-start'>
                         <div class='d-flex flex-row justify-content-center align-items-start h-100'>
-                            <img class='h-16 p-1 mt-4 ms-4' src='img/iconos/$ruta_img' alt=''>
+                            <img class='h-16 p-1 mt-4 ms-4' src='$ruta_img' alt=''>
                         </div>
                     </div>
                     <div class='col-md-9 col-12 justify-content-center align-items-center'>
